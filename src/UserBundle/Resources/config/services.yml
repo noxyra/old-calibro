@@ -1,0 +1,4 @@
+services:
+#    nx_user.example:
+#        class: NX\UserBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

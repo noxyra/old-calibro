@@ -1,0 +1,2039 @@
+@font-face {
+  font-family: 'simple-line-icons';
+  src: url('../fonts/Simple-Line-Icons.eot?v=2.4.0');
+  src: url('../fonts/Simple-Line-Icons.eot?v=2.4.0#iefix') format('embedded-opentype'), url('../fonts/Simple-Line-Icons.woff2?v=2.4.0') format('woff2'), url('../fonts/Simple-Line-Icons.ttf?v=2.4.0') format('truetype'), url('../fonts/Simple-Line-Icons.woff?v=2.4.0') format('woff'), url('../fonts/Simple-Line-Icons.svg?v=2.4.0#simple-line-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+ Use the following CSS code if you want to have a class per icon.
+ Instead of a list of all class selectors, you can use the generic [class*="icon-"] selector, but it's slower:
+*/
+.icon-user,
+.icon-people,
+.icon-user-female,
+.icon-user-follow,
+.icon-user-following,
+.icon-user-unfollow,
+.icon-login,
+.icon-logout,
+.icon-emotsmile,
+.icon-phone,
+.icon-call-end,
+.icon-call-in,
+.icon-call-out,
+.icon-map,
+.icon-location-pin,
+.icon-direction,
+.icon-directions,
+.icon-compass,
+.icon-layers,
+.icon-menu,
+.icon-list,
+.icon-options-vertical,
+.icon-options,
+.icon-arrow-down,
+.icon-arrow-left,
+.icon-arrow-right,
+.icon-arrow-up,
+.icon-arrow-up-circle,
+.icon-arrow-left-circle,
+.icon-arrow-right-circle,
+.icon-arrow-down-circle,
+.icon-check,
+.icon-clock,
+.icon-plus,
+.icon-minus,
+.icon-close,
+.icon-event,
+.icon-exclamation,
+.icon-organization,
+.icon-trophy,
+.icon-screen-smartphone,
+.icon-screen-desktop,
+.icon-plane,
+.icon-notebook,
+.icon-mustache,
+.icon-mouse,
+.icon-magnet,
+.icon-energy,
+.icon-disc,
+.icon-cursor,
+.icon-cursor-move,
+.icon-crop,
+.icon-chemistry,
+.icon-speedometer,
+.icon-shield,
+.icon-screen-tablet,
+.icon-magic-wand,
+.icon-hourglass,
+.icon-graduation,
+.icon-ghost,
+.icon-game-controller,
+.icon-fire,
+.icon-eyeglass,
+.icon-envelope-open,
+.icon-envelope-letter,
+.icon-bell,
+.icon-badge,
+.icon-anchor,
+.icon-wallet,
+.icon-vector,
+.icon-speech,
+.icon-puzzle,
+.icon-printer,
+.icon-present,
+.icon-playlist,
+.icon-pin,
+.icon-picture,
+.icon-handbag,
+.icon-globe-alt,
+.icon-globe,
+.icon-folder-alt,
+.icon-folder,
+.icon-film,
+.icon-feed,
+.icon-drop,
+.icon-drawer,
+.icon-docs,
+.icon-doc,
+.icon-diamond,
+.icon-cup,
+.icon-calculator,
+.icon-bubbles,
+.icon-briefcase,
+.icon-book-open,
+.icon-basket-loaded,
+.icon-basket,
+.icon-bag,
+.icon-action-undo,
+.icon-action-redo,
+.icon-wrench,
+.icon-umbrella,
+.icon-trash,
+.icon-tag,
+.icon-support,
+.icon-frame,
+.icon-size-fullscreen,
+.icon-size-actual,
+.icon-shuffle,
+.icon-share-alt,
+.icon-share,
+.icon-rocket,
+.icon-question,
+.icon-pie-chart,
+.icon-pencil,
+.icon-note,
+.icon-loop,
+.icon-home,
+.icon-grid,
+.icon-graph,
+.icon-microphone,
+.icon-music-tone-alt,
+.icon-music-tone,
+.icon-earphones-alt,
+.icon-earphones,
+.icon-equalizer,
+.icon-like,
+.icon-dislike,
+.icon-control-start,
+.icon-control-rewind,
+.icon-control-play,
+.icon-control-pause,
+.icon-control-forward,
+.icon-control-end,
+.icon-volume-1,
+.icon-volume-2,
+.icon-volume-off,
+.icon-calendar,
+.icon-bulb,
+.icon-chart,
+.icon-ban,
+.icon-bubble,
+.icon-camrecorder,
+.icon-camera,
+.icon-cloud-download,
+.icon-cloud-upload,
+.icon-envelope,
+.icon-eye,
+.icon-flag,
+.icon-heart,
+.icon-info,
+.icon-key,
+.icon-link,
+.icon-lock,
+.icon-lock-open,
+.icon-magnifier,
+.icon-magnifier-add,
+.icon-magnifier-remove,
+.icon-paper-clip,
+.icon-paper-plane,
+.icon-power,
+.icon-refresh,
+.icon-reload,
+.icon-settings,
+.icon-star,
+.icon-symbol-female,
+.icon-symbol-male,
+.icon-target,
+.icon-credit-card,
+.icon-paypal,
+.icon-social-tumblr,
+.icon-social-twitter,
+.icon-social-facebook,
+.icon-social-instagram,
+.icon-social-linkedin,
+.icon-social-pinterest,
+.icon-social-github,
+.icon-social-google,
+.icon-social-reddit,
+.icon-social-skype,
+.icon-social-dribbble,
+.icon-social-behance,
+.icon-social-foursqare,
+.icon-social-soundcloud,
+.icon-social-spotify,
+.icon-social-stumbleupon,
+.icon-social-youtube,
+.icon-social-dropbox,
+.icon-social-vkontakte,
+.icon-social-steam {
+  font-family: 'simple-line-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-user:before {
+  content: "\e005";
+}
+.icon-people:before {
+  content: "\e001";
+}
+.icon-user-female:before {
+  content: "\e000";
+}
+.icon-user-follow:before {
+  content: "\e002";
+}
+.icon-user-following:before {
+  content: "\e003";
+}
+.icon-user-unfollow:before {
+  content: "\e004";
+}
+.icon-login:before {
+  content: "\e066";
+}
+.icon-logout:before {
+  content: "\e065";
+}
+.icon-emotsmile:before {
+  content: "\e021";
+}
+.icon-phone:before {
+  content: "\e600";
+}
+.icon-call-end:before {
+  content: "\e048";
+}
+.icon-call-in:before {
+  content: "\e047";
+}
+.icon-call-out:before {
+  content: "\e046";
+}
+.icon-map:before {
+  content: "\e033";
+}
+.icon-location-pin:before {
+  content: "\e096";
+}
+.icon-direction:before {
+  content: "\e042";
+}
+.icon-directions:before {
+  content: "\e041";
+}
+.icon-compass:before {
+  content: "\e045";
+}
+.icon-layers:before {
+  content: "\e034";
+}
+.icon-menu:before {
+  content: "\e601";
+}
+.icon-list:before {
+  content: "\e067";
+}
+.icon-options-vertical:before {
+  content: "\e602";
+}
+.icon-options:before {
+  content: "\e603";
+}
+.icon-arrow-down:before {
+  content: "\e604";
+}
+.icon-arrow-left:before {
+  content: "\e605";
+}
+.icon-arrow-right:before {
+  content: "\e606";
+}
+.icon-arrow-up:before {
+  content: "\e607";
+}
+.icon-arrow-up-circle:before {
+  content: "\e078";
+}
+.icon-arrow-left-circle:before {
+  content: "\e07a";
+}
+.icon-arrow-right-circle:before {
+  content: "\e079";
+}
+.icon-arrow-down-circle:before {
+  content: "\e07b";
+}
+.icon-check:before {
+  content: "\e080";
+}
+.icon-clock:before {
+  content: "\e081";
+}
+.icon-plus:before {
+  content: "\e095";
+}
+.icon-minus:before {
+  content: "\e615";
+}
+.icon-close:before {
+  content: "\e082";
+}
+.icon-event:before {
+  content: "\e619";
+}
+.icon-exclamation:before {
+  content: "\e617";
+}
+.icon-organization:before {
+  content: "\e616";
+}
+.icon-trophy:before {
+  content: "\e006";
+}
+.icon-screen-smartphone:before {
+  content: "\e010";
+}
+.icon-screen-desktop:before {
+  content: "\e011";
+}
+.icon-plane:before {
+  content: "\e012";
+}
+.icon-notebook:before {
+  content: "\e013";
+}
+.icon-mustache:before {
+  content: "\e014";
+}
+.icon-mouse:before {
+  content: "\e015";
+}
+.icon-magnet:before {
+  content: "\e016";
+}
+.icon-energy:before {
+  content: "\e020";
+}
+.icon-disc:before {
+  content: "\e022";
+}
+.icon-cursor:before {
+  content: "\e06e";
+}
+.icon-cursor-move:before {
+  content: "\e023";
+}
+.icon-crop:before {
+  content: "\e024";
+}
+.icon-chemistry:before {
+  content: "\e026";
+}
+.icon-speedometer:before {
+  content: "\e007";
+}
+.icon-shield:before {
+  content: "\e00e";
+}
+.icon-screen-tablet:before {
+  content: "\e00f";
+}
+.icon-magic-wand:before {
+  content: "\e017";
+}
+.icon-hourglass:before {
+  content: "\e018";
+}
+.icon-graduation:before {
+  content: "\e019";
+}
+.icon-ghost:before {
+  content: "\e01a";
+}
+.icon-game-controller:before {
+  content: "\e01b";
+}
+.icon-fire:before {
+  content: "\e01c";
+}
+.icon-eyeglass:before {
+  content: "\e01d";
+}
+.icon-envelope-open:before {
+  content: "\e01e";
+}
+.icon-envelope-letter:before {
+  content: "\e01f";
+}
+.icon-bell:before {
+  content: "\e027";
+}
+.icon-badge:before {
+  content: "\e028";
+}
+.icon-anchor:before {
+  content: "\e029";
+}
+.icon-wallet:before {
+  content: "\e02a";
+}
+.icon-vector:before {
+  content: "\e02b";
+}
+.icon-speech:before {
+  content: "\e02c";
+}
+.icon-puzzle:before {
+  content: "\e02d";
+}
+.icon-printer:before {
+  content: "\e02e";
+}
+.icon-present:before {
+  content: "\e02f";
+}
+.icon-playlist:before {
+  content: "\e030";
+}
+.icon-pin:before {
+  content: "\e031";
+}
+.icon-picture:before {
+  content: "\e032";
+}
+.icon-handbag:before {
+  content: "\e035";
+}
+.icon-globe-alt:before {
+  content: "\e036";
+}
+.icon-globe:before {
+  content: "\e037";
+}
+.icon-folder-alt:before {
+  content: "\e039";
+}
+.icon-folder:before {
+  content: "\e089";
+}
+.icon-film:before {
+  content: "\e03a";
+}
+.icon-feed:before {
+  content: "\e03b";
+}
+.icon-drop:before {
+  content: "\e03e";
+}
+.icon-drawer:before {
+  content: "\e03f";
+}
+.icon-docs:before {
+  content: "\e040";
+}
+.icon-doc:before {
+  content: "\e085";
+}
+.icon-diamond:before {
+  content: "\e043";
+}
+.icon-cup:before {
+  content: "\e044";
+}
+.icon-calculator:before {
+  content: "\e049";
+}
+.icon-bubbles:before {
+  content: "\e04a";
+}
+.icon-briefcase:before {
+  content: "\e04b";
+}
+.icon-book-open:before {
+  content: "\e04c";
+}
+.icon-basket-loaded:before {
+  content: "\e04d";
+}
+.icon-basket:before {
+  content: "\e04e";
+}
+.icon-bag:before {
+  content: "\e04f";
+}
+.icon-action-undo:before {
+  content: "\e050";
+}
+.icon-action-redo:before {
+  content: "\e051";
+}
+.icon-wrench:before {
+  content: "\e052";
+}
+.icon-umbrella:before {
+  content: "\e053";
+}
+.icon-trash:before {
+  content: "\e054";
+}
+.icon-tag:before {
+  content: "\e055";
+}
+.icon-support:before {
+  content: "\e056";
+}
+.icon-frame:before {
+  content: "\e038";
+}
+.icon-size-fullscreen:before {
+  content: "\e057";
+}
+.icon-size-actual:before {
+  content: "\e058";
+}
+.icon-shuffle:before {
+  content: "\e059";
+}
+.icon-share-alt:before {
+  content: "\e05a";
+}
+.icon-share:before {
+  content: "\e05b";
+}
+.icon-rocket:before {
+  content: "\e05c";
+}
+.icon-question:before {
+  content: "\e05d";
+}
+.icon-pie-chart:before {
+  content: "\e05e";
+}
+.icon-pencil:before {
+  content: "\e05f";
+}
+.icon-note:before {
+  content: "\e060";
+}
+.icon-loop:before {
+  content: "\e064";
+}
+.icon-home:before {
+  content: "\e069";
+}
+.icon-grid:before {
+  content: "\e06a";
+}
+.icon-graph:before {
+  content: "\e06b";
+}
+.icon-microphone:before {
+  content: "\e063";
+}
+.icon-music-tone-alt:before {
+  content: "\e061";
+}
+.icon-music-tone:before {
+  content: "\e062";
+}
+.icon-earphones-alt:before {
+  content: "\e03c";
+}
+.icon-earphones:before {
+  content: "\e03d";
+}
+.icon-equalizer:before {
+  content: "\e06c";
+}
+.icon-like:before {
+  content: "\e068";
+}
+.icon-dislike:before {
+  content: "\e06d";
+}
+.icon-control-start:before {
+  content: "\e06f";
+}
+.icon-control-rewind:before {
+  content: "\e070";
+}
+.icon-control-play:before {
+  content: "\e071";
+}
+.icon-control-pause:before {
+  content: "\e072";
+}
+.icon-control-forward:before {
+  content: "\e073";
+}
+.icon-control-end:before {
+  content: "\e074";
+}
+.icon-volume-1:before {
+  content: "\e09f";
+}
+.icon-volume-2:before {
+  content: "\e0a0";
+}
+.icon-volume-off:before {
+  content: "\e0a1";
+}
+.icon-calendar:before {
+  content: "\e075";
+}
+.icon-bulb:before {
+  content: "\e076";
+}
+.icon-chart:before {
+  content: "\e077";
+}
+.icon-ban:before {
+  content: "\e07c";
+}
+.icon-bubble:before {
+  content: "\e07d";
+}
+.icon-camrecorder:before {
+  content: "\e07e";
+}
+.icon-camera:before {
+  content: "\e07f";
+}
+.icon-cloud-download:before {
+  content: "\e083";
+}
+.icon-cloud-upload:before {
+  content: "\e084";
+}
+.icon-envelope:before {
+  content: "\e086";
+}
+.icon-eye:before {
+  content: "\e087";
+}
+.icon-flag:before {
+  content: "\e088";
+}
+.icon-heart:before {
+  content: "\e08a";
+}
+.icon-info:before {
+  content: "\e08b";
+}
+.icon-key:before {
+  content: "\e08c";
+}
+.icon-link:before {
+  content: "\e08d";
+}
+.icon-lock:before {
+  content: "\e08e";
+}
+.icon-lock-open:before {
+  content: "\e08f";
+}
+.icon-magnifier:before {
+  content: "\e090";
+}
+.icon-magnifier-add:before {
+  content: "\e091";
+}
+.icon-magnifier-remove:before {
+  content: "\e092";
+}
+.icon-paper-clip:before {
+  content: "\e093";
+}
+.icon-paper-plane:before {
+  content: "\e094";
+}
+.icon-power:before {
+  content: "\e097";
+}
+.icon-refresh:before {
+  content: "\e098";
+}
+.icon-reload:before {
+  content: "\e099";
+}
+.icon-settings:before {
+  content: "\e09a";
+}
+.icon-star:before {
+  content: "\e09b";
+}
+.icon-symbol-female:before {
+  content: "\e09c";
+}
+.icon-symbol-male:before {
+  content: "\e09d";
+}
+.icon-target:before {
+  content: "\e09e";
+}
+.icon-credit-card:before {
+  content: "\e025";
+}
+.icon-paypal:before {
+  content: "\e608";
+}
+.icon-social-tumblr:before {
+  content: "\e00a";
+}
+.icon-social-twitter:before {
+  content: "\e009";
+}
+.icon-social-facebook:before {
+  content: "\e00b";
+}
+.icon-social-instagram:before {
+  content: "\e609";
+}
+.icon-social-linkedin:before {
+  content: "\e60a";
+}
+.icon-social-pinterest:before {
+  content: "\e60b";
+}
+.icon-social-github:before {
+  content: "\e60c";
+}
+.icon-social-google:before {
+  content: "\e60d";
+}
+.icon-social-reddit:before {
+  content: "\e60e";
+}
+.icon-social-skype:before {
+  content: "\e60f";
+}
+.icon-social-dribbble:before {
+  content: "\e00d";
+}
+.icon-social-behance:before {
+  content: "\e610";
+}
+.icon-social-foursqare:before {
+  content: "\e611";
+}
+.icon-social-soundcloud:before {
+  content: "\e612";
+}
+.icon-social-spotify:before {
+  content: "\e613";
+}
+.icon-social-stumbleupon:before {
+  content: "\e614";
+}
+.icon-social-youtube:before {
+  content: "\e008";
+}
+.icon-social-dropbox:before {
+  content: "\e00c";
+}
+.icon-social-vkontakte:before {
+  content: "\e618";
+}
+.icon-social-steam:before {
+  content: "\e620";
+}
+
+/*
+ *	HTML5 Device Mockups
+ *
+ *	By:
+ *		Tomi Hiltunen
+ *		tomi@mitakuuluu.fi
+ *		http://fi.linkedin.com/in/tomihiltunen/
+ *
+ *		Angelos Arnis
+ *		http://fi.linkedin.com/in/angelosarnis/
+ *
+ *	Inluded in this package:
+ *		- iPhone5 (black/white, portrait/landscape)
+ *		- iPad2 (black/white, portrait/landscape)
+ *		- iMac
+ *		- MacBook Pro (retina model)
+ *		- Nexus 7
+ *		- Lumia 920
+ *		- Microsoft Surface
+ *		- Galaxy S3
+ *
+ *  Added by ben182 (@beno182):
+ *		- iPhone 6
+ *  	- iPhone 6 Plus
+ *		- iPhone SE
+ *		- iPad Air
+ *		- iPad Air 2
+ *		- iPad Pro
+ *		- Macbook 2015
+ *
+ *
+ */
+
+ /* GENERAL STYLE */
+
+.device-mockup {
+	position: relative;
+	width: 100%;
+	padding-bottom: 61.775701%;
+}
+
+	.device-mockup > .device {
+		position: absolute;
+		top: 0; bottom: 0; left: 0; right: 0;
+		width: 100%; height: 100%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-image: url("/web/bundles/landing/newAge/lib/device-mockups/macbook/macbook.png");
+	}
+
+		.device-mockup > .device > .screen {
+			position: absolute;
+			top:    11.0438729%;
+			bottom: 14.6747352%;
+			left:   13.364486%;
+			right:  13.364486%;
+			overflow: hidden;
+		}
+
+		.device-mockup > .device > .button {
+			position: absolute;
+			top: 0; left: 0;
+			display: none;
+			overflow: hidden;
+			border-radius: 100%;
+			-webkit-border-radius: 100%;
+			-moz-border-radius: 100%;
+			cursor: pointer;
+		}
+
+
+/* DEVICES */
+
+
+/* iMac */
+.device-mockup.imac {
+	padding-bottom: 81.230769%;
+}
+
+.device-mockup.imac > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/imac/imac.png");
+}
+
+.device-mockup.imac > .device > .screen {
+	top: 8.20707071%; bottom: 31.6919192%; left: 6.61538462%; right: 6.61538462%;
+}
+
+
+/* MacBook Pro */
+.device-mockup.macbook {
+	padding-bottom: 61.775701%;
+}
+
+.device-mockup.macbook > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/macbook/macbook.png");
+}
+
+.device-mockup.macbook > .device > .screen {
+	top: 11.0438729%; bottom: 14.6747352%; left: 13.364486%; right: 13.364486%;
+}
+
+/* MacBook 2015 */
+.device-mockup.macbook_2015 {
+	padding-bottom: 57.50%;
+}
+
+.device-mockup.macbook_2015 > .device,
+.device-mockup.macbook_2015.grey > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/macbook_2015/grey.png");
+}
+
+.device-mockup.macbook_2015 > .device,
+.device-mockup.macbook_2015.silver > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/macbook_2015/silver.png");
+}
+
+.device-mockup.macbook_2015 > .device,
+.device-mockup.macbook_2015.gold > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/macbook_2015/gold.png");
+}
+
+.device-mockup.macbook_2015 > .device > .screen {
+    top: 7.5%; bottom: 10.9%; left: 12.46%; right: 12.56%;
+}
+
+
+/* iPhone 5 */
+.device-mockup.iphone5,
+.device-mockup.iphone5.portrait {
+	padding-bottom: 210.57%;
+}
+
+.device-mockup.iphone5.landscape {
+	padding-bottom: 47.49%;
+}
+
+.device-mockup.iphone5 > .device,
+.device-mockup.iphone5.black > .device,
+.device-mockup.iphone5.portrait.black > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone5/iphone5_port_black.png");
+}
+
+.device-mockup.iphone5.landscape > .device,
+.device-mockup.iphone5.landscape.black > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone5/iphone5_land_black.png");
+}
+
+.device-mockup.iphone5.white > .device,
+.device-mockup.iphone5.portrait.white > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone5/iphone5_port_white.png");
+}
+
+.device-mockup.iphone5.landscape.white > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone5/iphone5_land_white.png");
+}
+
+.device-mockup.iphone5 > .device > .screen,
+.device-mockup.iphone5.portrait > .device > .screen {
+    top: 14.78%; bottom: 13.78%; left: 8.77%; right: 7.77%;
+}
+
+.device-mockup.iphone5.landscape > .device > .screen {
+    top: 7.422488%; bottom: 8.422488%; left: 14.919127%; right: 14.019127%;
+}
+
+.device-mockup.iphone5 > .device > .button,
+.device-mockup.iphone5.portrait > .device > .button {
+	display: block;
+    top: 88.3%; bottom: 2.5%; left: 40%; right: 40%;
+}
+
+.device-mockup.iphone5.landscape > .device > .button {
+	display: block;
+    top: 40%; bottom: 41%; left: 88.4%; right: 2.3%;
+}
+
+/* iPhone SE */
+.device-mockup.iphone_se,
+.device-mockup.iphone_se.portrait {
+	padding-bottom: 209.83%;
+}
+
+.device-mockup.iphone_se.landscape {
+	padding-bottom: 47.66%;
+}
+
+.device-mockup.iphone_se > .device,
+.device-mockup.iphone_se.black > .device,
+.device-mockup.iphone_se.portrait.black > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_se/iphone_se_port_black.png");
+}
+
+.device-mockup.iphone_se.landscape > .device,
+.device-mockup.iphone_se.landscape.black > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_se/iphone_se_land_black.png");
+}
+
+.device-mockup.iphone_se.white > .device,
+.device-mockup.iphone_se.portrait.white > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_se/iphone_se_port_white.png");
+}
+
+.device-mockup.iphone_se.landscape.white > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_se/iphone_se_land_white.png");
+}
+
+.device-mockup.iphone_se.gold > .device,
+.device-mockup.iphone_se.portrait.gold > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_se/iphone_se_port_gold.png");
+}
+
+.device-mockup.iphone_se.landscape.gold > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_se/iphone_se_land_gold.png");
+}
+
+.device-mockup.iphone_se.rose > .device,
+.device-mockup.iphone_se.portrait.rose > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_se/iphone_se_port_rose.png");
+}
+
+.device-mockup.iphone_se.landscape.rose > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_se/iphone_se_land_rose.png");
+}
+
+.device-mockup.iphone_se > .device > .screen,
+.device-mockup.iphone_se.portrait > .device > .screen {
+	top: 16.28%; bottom: 16.28%; left: 11.77%; right: 11.77%;
+}
+
+.device-mockup.iphone_se.landscape > .device > .screen {
+	top: 11.722488%; bottom: 11.722488%; left: 16.0191273%; right: 16.0191273%;
+}
+
+.device-mockup.iphone_se > .device > .button,
+.device-mockup.iphone_se.portrait > .device > .button {
+	display: block;
+	top: 86.3%; bottom: 5.5%; left:  42%; right: 42%;
+}
+
+.device-mockup.iphone_se.landscape > .device > .button {
+	display: block;
+	top: 42%; bottom: 42%; left:  86.4%; right: 5.1%;
+}
+
+/* iPhone 6 */
+.device-mockup.iphone6,
+.device-mockup.iphone6.portrait {
+	padding-bottom: 207.19%;
+}
+
+.device-mockup.iphone6.landscape {
+	padding-bottom: 48.76%;
+}
+
+.device-mockup.iphone6 > .device,
+.device-mockup.iphone6.black > .device,
+.device-mockup.iphone6.portrait.black > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_6/iphone_6_port_black.png");
+}
+
+.device-mockup.iphone6.landscape > .device,
+.device-mockup.iphone6.landscape.black > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_6/iphone_6_land_black.png");
+}
+
+.device-mockup.iphone6.white > .device,
+.device-mockup.iphone6.portrait.white > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_6/iphone_6_port_white.png");
+}
+
+.device-mockup.iphone6.landscape.white > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_6/iphone_6_land_white.png");
+}
+
+.device-mockup.iphone6.gold > .device,
+.device-mockup.iphone6.portrait.gold > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_6/iphone_6_port_gold.png");
+}
+
+.device-mockup.iphone6.landscape.gold > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_6/iphone_6_land_gold.png");
+}
+
+.device-mockup.iphone6 > .device > .screen,
+.device-mockup.iphone6.portrait > .device > .screen {
+	top: 12.58%; bottom: 12.88%; left: 6.77%; right: 6.77%;
+}
+
+.device-mockup.iphone6.landscape > .device > .screen {
+	top: 6.77%; bottom: 6.77%; left: 12.58%; right: 12.88%;
+}
+
+.device-mockup.iphone6 > .device > .button,
+.device-mockup.iphone6.portrait > .device > .button {
+	display: block;
+	top: 88.6%; bottom: 3.2%; left: 42%; right: 42%;
+}
+
+.device-mockup.iphone6.landscape > .device > .button {
+	display: block;
+	top: 42%; bottom: 42%; left:  88.6%; right: 3.2%;
+}
+
+/* iPhone 6 Plus*/
+.device-mockup.iphone6_plus,
+.device-mockup.iphone6_plus.portrait {
+	padding-bottom: 201.76%;
+}
+
+.device-mockup.iphone6_plus.landscape {
+	padding-bottom: 49.56%;
+}
+
+.device-mockup.iphone6_plus > .device,
+.device-mockup.iphone6_plus.black > .device,
+.device-mockup.iphone6_plus.portrait.black > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_6_plus/iphone_6_plus_black_port.png");
+}
+
+.device-mockup.iphone6_plus.landscape > .device,
+.device-mockup.iphone6_plus.landscape.black > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_6_plus/iphone_6_plus_black_land.png");
+}
+
+.device-mockup.iphone6_plus.white > .device,
+.device-mockup.iphone6_plus.portrait.white > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_6_plus/iphone_6_plus_white_port.png");
+}
+
+.device-mockup.iphone6_plus.landscape.white > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_6_plus/iphone_6_plus_white_land.png");
+}
+
+.device-mockup.iphone6_plus.gold > .device,
+.device-mockup.iphone6_plus.portrait.gold > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_6_plus/iphone_6_plus_gold_port.png");
+}
+
+.device-mockup.iphone6_plus.landscape.gold > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/iphone_6_plus/iphone_6_plus_gold_land.png");
+}
+
+.device-mockup.iphone6_plus > .device > .screen,
+.device-mockup.iphone6_plus.portrait > .device > .screen {
+    top: 11.58%; bottom: 11.58%; left: 5.97%; right: 5.97%;
+}
+
+.device-mockup.iphone6_plus.landscape > .device > .screen {
+    top: 5.97%; bottom: 5.97%; left: 11.38%; right: 11.58%;
+}
+
+.device-mockup.iphone6_plus > .device > .button,
+.device-mockup.iphone6_plus.portrait > .device > .button {
+	display: block;
+    top: 89.9%; bottom: 3.2%; left: 43%; right: 43%;
+}
+
+.device-mockup.iphone6_plus.landscape > .device > .button {
+	display: block;
+	top: 43%; bottom: 43%; left: 89.9%; right: 3.2%;
+}
+
+/* iPad */
+.device-mockup.ipad,
+.device-mockup.ipad.portrait {
+	padding-bottom: 128.406276%;
+}
+
+.device-mockup.ipad.landscape {
+	padding-bottom: 79.9086758%;
+}
+
+.device-mockup.ipad > .device,
+.device-mockup.ipad.black > .device,
+.device-mockup.ipad.portrait.black > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad/ipad_port_black.png");
+}
+
+.device-mockup.ipad.white > .device,
+.device-mockup.ipad.portrait.white > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad/ipad_port_white.png");
+}
+
+.device-mockup.ipad.landscape > .device,
+.device-mockup.ipad.landscape.black > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad/ipad_land_black.png");
+}
+
+.device-mockup.ipad.landscape.white > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad/ipad_land_white.png");
+}
+
+.device-mockup.ipad > .device > .screen,
+.device-mockup.ipad.portrait > .device > .screen {
+	top: 12.025723%; bottom: 12.154341%; left: 13.45995%; right: 13.45995%;
+}
+
+.device-mockup.ipad.landscape > .device > .screen {
+	top: 13.87755102%; bottom: 13.87755102%; left: 11.5459883%; right: 11.5459883%;
+}
+
+.device-mockup.ipad > .device > .button,
+.device-mockup.ipad.portrait > .device > .button {
+	display: block;
+	top: 90.2%; bottom: 5.5%; left: 47.3%; right: 47.3%;
+}
+
+.device-mockup.ipad.landscape > .device > .button {
+	display: block;
+	top: 47.3%; bottom: 47.3%; left: 90.8%; right: 4.9%;
+}
+
+/* iPad Air */
+.device-mockup.ipad_air,
+.device-mockup.ipad_air.portrait {
+	padding-bottom: 141.27%;
+}
+
+.device-mockup.ipad_air.landscape {
+	padding-bottom: 70.79%;
+}
+
+.device-mockup.ipad_air > .device,
+.device-mockup.ipad_air.grey > .device,
+.device-mockup.ipad_air.portrait.grey > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad_air/ipad_air_gray_port.png");
+}
+
+.device-mockup.ipad_air.silver > .device,
+.device-mockup.ipad_air.portrait.silver > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad_air/ipad_air_silver_port.png");
+}
+
+.device-mockup.ipad_air.landscape > .device,
+.device-mockup.ipad_air.landscape.grey > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad_air/ipad_air_gray_land.png");
+}
+
+.device-mockup.ipad_air.landscape.silver > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad_air/ipad_air_silver_land.png");
+}
+
+.device-mockup.ipad_air > .device > .screen,
+.device-mockup.ipad_air.portrait > .device > .screen {
+	top: 9.025723%; bottom: 9.154341%; left: 7.45995%; right: 6.45995%;
+}
+
+.device-mockup.ipad_air.landscape > .device > .screen {
+    top: 6.877551%; bottom: 6.877551%; left: 9.545988%; right: 9.545988%;
+}
+
+.device-mockup.ipad_air > .device > .button,
+.device-mockup.ipad_air.portrait > .device > .button {
+	display: block;
+    top: 93.2%; bottom: 2.5%; left: 47.3%; right: 47.3%;
+}
+
+.device-mockup.ipad_air.landscape > .device > .button {
+	display: block;
+	top: 47.3%; bottom: 47.3%; left: 93.1%; right: 2.1%;
+}
+
+/* iPad Air 2 */
+.device-mockup.ipad_air_2,
+.device-mockup.ipad_air_2.portrait {
+    padding-bottom: 141.38%;
+}
+
+.device-mockup.ipad_air_2.landscape {
+	padding-bottom: 70.73%;
+}
+
+.device-mockup.ipad_air_2 > .device,
+.device-mockup.ipad_air_2.grey > .device,
+.device-mockup.ipad_air_2.portrait.grey > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad_air_2/ipad_air_2_gray_port.png");
+}
+
+.device-mockup.ipad_air_2.silver > .device,
+.device-mockup.ipad_air_2.portrait.silver > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad_air_2/ipad_air_2_silver_port.png");
+}
+
+.device-mockup.ipad_air_2.gold > .device,
+.device-mockup.ipad_air_2.portrait.gold > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad_air_2/ipad_air_2_gold_port.png");
+}
+
+.device-mockup.ipad_air_2.landscape > .device,
+.device-mockup.ipad_air_2.landscape.grey > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad_air_2/ipad_air_2_gray_land.png");
+}
+
+.device-mockup.ipad_air_2.landscape.silver > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad_air_2/ipad_air_2_silver_land.png");
+}
+
+.device-mockup.ipad_air_2.landscape.gold > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad_air_2/ipad_air_2_gold_land.png");
+}
+
+.device-mockup.ipad_air_2 > .device > .screen,
+.device-mockup.ipad_air_2.portrait > .device > .screen {
+	top: 9.025723%; bottom: 8.854341%; left: 6.15995%; right: 6.15995%;
+}
+
+.device-mockup.ipad_air_2.landscape > .device > .screen {
+    top: 6.277551%; bottom: 6.277551%; left: 8.545988%; right: 8.545988%;
+}
+
+.device-mockup.ipad_air_2 > .device > .button,
+.device-mockup.ipad_air_2.portrait > .device > .button {
+	display: block;
+    top: 93.2%; bottom: 2.1%; left: 46.3%; right: 46.5%;
+}
+
+.device-mockup.ipad_air_2.landscape > .device > .button {
+	display: block;
+	top: 46.5%; bottom: 46.8%; left: 93.5%; right: 1.9%;
+}
+
+/* iPad Pro */
+.device-mockup.ipad_pro,
+.device-mockup.ipad_pro.portrait {
+    padding-bottom: 138.63%;
+}
+
+.device-mockup.ipad_pro.landscape {
+	padding-bottom: 72.14%;
+}
+
+.device-mockup.ipad_pro > .device,
+.device-mockup.ipad_pro.grey > .device,
+.device-mockup.ipad_pro.portrait.grey > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad_pro/ipad_pro_port_black.png");
+}
+
+.device-mockup.ipad_pro.silver > .device,
+.device-mockup.ipad_pro.portrait.silver > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad_pro/ipad_pro_port_silver.png");
+}
+
+.device-mockup.ipad_pro.gold > .device,
+.device-mockup.ipad_pro.portrait.gold > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad_pro/ipad_pro_port_gold.png");
+}
+
+.device-mockup.ipad_pro.landscape > .device,
+.device-mockup.ipad_pro.landscape.grey > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad_pro/ipad_pro_land_black.png");
+}
+
+.device-mockup.ipad_pro.landscape.silver > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad_pro/ipad_pro_land_silver.png");
+}
+
+.device-mockup.ipad_pro.landscape.gold > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/ipad_pro/ipad_pro_land_gold.png");
+}
+
+.device-mockup.ipad_pro > .device > .screen,
+.device-mockup.ipad_pro.portrait > .device > .screen {
+    top: 7.025723%; bottom: 6.854341%; left: 5.15995%; right: 5.15995%;
+}
+
+.device-mockup.ipad_pro.landscape > .device > .screen {
+    top: 5.177551%; bottom: 5.177551%; left: 6.945988%; right: 6.945988%;
+}
+
+.device-mockup.ipad_pro > .device > .button,
+.device-mockup.ipad_pro.portrait > .device > .button {
+	display: block;
+    top: 94.9%; bottom: 1.5%; left: 47.3%; right: 47.1%;
+}
+
+.device-mockup.ipad_pro.landscape > .device > .button {
+	display: block;
+    top: 47.5%; bottom: 47.5%; left: 94.8%; right: 1.5%;
+}
+
+
+/* Galaxy S3 */
+.device-mockup.galaxy_s3,
+.device-mockup.galaxy_s3.portrait {
+	padding-bottom: 178.787879%;
+}
+
+.device-mockup.galaxy_s3.landscape {
+	padding-bottom: 55.9322034%;
+}
+
+.device-mockup.galaxy_s3 > .device,
+.device-mockup.galaxy_s3.black > .device,
+.device-mockup.galaxy_s3.portrait.black > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/galaxy_s3/s3_port_black.png");
+}
+
+.device-mockup.galaxy_s3.landscape > .device,
+.device-mockup.galaxy_s3.landscape.black > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/galaxy_s3/s3_land_black.png");
+}
+
+.device-mockup.galaxy_s3.white > .device,
+.device-mockup.galaxy_s3.portrait.white > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/galaxy_s3/s3_port_white.png");
+}
+
+.device-mockup.galaxy_s3.landscape.white > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/galaxy_s3/s3_land_white.png");
+}
+
+.device-mockup.galaxy_s3 > .device > .screen,
+.device-mockup.galaxy_s3.portrait > .device > .screen {
+	top: 12.3728814%; bottom: 15.5367232%; left: 13.8383838%; right: 13.8383838%;
+}
+
+.device-mockup.galaxy_s3.landscape > .device > .screen {
+	top: 13.8383838%; bottom: 13.8383838%; left: 12.3728814%; right: 15.5367232%;
+}
+
+
+/* Galaxy S5 */
+.device-mockup.galaxy_s5,
+.device-mockup.galaxy_s5.portrait {
+  padding-bottom: 194.188862%;
+}
+
+.device-mockup.galaxy_s5.landscape {
+  padding-bottom: 51.496259%;
+}
+
+.device-mockup.galaxy_s5 > .device,
+.device-mockup.galaxy_s5.black > .device,
+.device-mockup.galaxy_s5.portrait.black > .device {
+  background-image: url("/web/bundles/landing/newAge/lib/device-mockups/galaxy_s5/galaxy_s5_port_black.png");
+}
+
+.device-mockup.galaxy_s5.landscape > .device,
+.device-mockup.galaxy_s5.landscape.black > .device {
+  background-image: url("/web/bundles/landing/newAge/lib/device-mockups/galaxy_s5/galaxy_s5_land_black.png");
+}
+
+.device-mockup.galaxy_s5.white > .device,
+.device-mockup.galaxy_s5.portrait.white > .device {
+  background-image: url("/web/bundles/landing/newAge/lib/device-mockups/galaxy_s5/galaxy_s5_port_white.png");
+}
+
+.device-mockup.galaxy_s5.landscape.white > .device {
+  background-image: url("/web/bundles/landing/newAge/lib/device-mockups/galaxy_s5/galaxy_s5_land_white.png");
+}
+
+.device-mockup.galaxy_s5 > .device > .screen,
+.device-mockup.galaxy_s5.portrait > .device > .screen {
+  top: 10.2%; bottom: 10.1%; left: 6.3%; right: 6.4%;
+}
+
+.device-mockup.galaxy_s5.landscape > .device > .screen {
+  top: 6.6%; bottom: 6.2%; left: 10.15%; right: 10%;
+}
+
+
+/* Galaxy Tab4 */
+.device-mockup.galaxy_tab4,
+.device-mockup.galaxy_tab4.landscape {
+  padding-bottom: 72.689464%;
+}
+
+.device-mockup.galaxy_tab4 > .device,
+.device-mockup.galaxy_tab4.black > .device,
+.device-mockup.galaxy_tab4.landscape.black > .device {
+  background-image: url("/web/bundles/landing/newAge/lib/device-mockups/galaxy_tab4/galaxy_tab4_land_black.png");
+}
+
+.device-mockup.galaxy_tab4.white > .device,
+.device-mockup.galaxy_tab4.landscape.white > .device {
+  background-image: url("/web/bundles/landing/newAge/lib/device-mockups/galaxy_tab4/galaxy_tab4_land_white.png");
+}
+
+.device-mockup.galaxy_tab4 > .device > .screen,
+.device-mockup.galaxy_tab4.landscape > .device > .screen {
+  top: 11.5%; bottom: 11.5%; left: 5.4%; right: 5.2%;
+}
+
+
+/* Lumia 920 */
+.device-mockup.lumia920,
+.device-mockup.lumia920.portrait {
+	padding-bottom: 172.796353%;
+}
+
+.device-mockup.lumia920.landscape {
+	padding-bottom: 56.3330381%;
+}
+
+.device-mockup.lumia920 > .device,
+.device-mockup.lumia920.portrait > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/lumia920/lumia920_port.png");
+}
+
+.device-mockup.lumia920.landscape > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/lumia920/lumia920_land.png");
+}
+.device-mockup.lumia920 > .device > .screen,
+.device-mockup.lumia920.portrait > .device > .screen {
+	top: 10.6420405%; bottom: 18.9973615%; left: 13.5258359%; right: 13.5258359%;
+}
+
+.device-mockup.lumia920.landscape > .device > .screen {
+	top: 12.2641509%; bottom: 12.2641509%; left: 10.5403012%; right: 18.6005314%;
+}
+
+
+/* Nexus 7 */
+.device-mockup.nexus7,
+.device-mockup.nexus7.portrait {
+	padding-bottom: 156.521739%;
+}
+
+.device-mockup.nexus7.landscape {
+	padding-bottom: 63.6678201%;
+}
+
+.device-mockup.nexus7 > .device,
+.device-mockup.nexus7.portrait > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/nexus7/nexus7_port.png");
+}
+
+.device-mockup.nexus7.landscape > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/nexus7/nexus7_land.png");
+}
+
+.device-mockup.nexus7 > .device > .screen,
+.device-mockup.nexus7.portrait > .device > .screen {
+	top: 13.1365741%; bottom: 12.7893519%; left: 13.7681159%; right: 13.7681159%;
+}
+
+.device-mockup.nexus7.landscape > .device > .screen {
+	top: 13.7681159%; bottom: 13.7681159%; left: 13.0911188%; right: 13.0911188%;
+}
+
+
+/* Microsoft Surface */
+.device-mockup.surface,
+.device-mockup.surface.landscape {
+	padding-bottom: 64.7584973%;
+}
+
+.device-mockup.surface > .device,
+.device-mockup.surface.landscape > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/surface/surface.png");
+}
+
+.device-mockup.surface > .device > .screen,
+.device-mockup.surface.landscape > .device > .screen {
+	top: 14.5488029%; bottom: 14.9171271%; left: 9.36195587%; right: 9.36195587%;
+}
+
+/* Samsung TV */
+.device-mockup.samsung_tv,
+.device-mockup.samsung_tv.landscape {
+	padding-bottom: 64.68%;
+}
+
+.device-mockup.samsung_tv > .device,
+.device-mockup.samsung_tv.landscape > .device {
+	background-image: url("/web/bundles/landing/newAge/lib/device-mockups/samsung_tv/samsung_tv.png");
+}
+
+.device-mockup.samsung_tv > .device > .screen,
+.device-mockup.samsung_tv.landscape > .device > .screen {
+    top: 2.148803%; bottom: 12.817127%; left: 1.261956%; right: 1.361956%;
+}
+
+/*!
+ * Start Bootstrap - New Age v3.3.7 (http://startbootstrap.com/template-overviews/new-age)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+.heading-font {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.body-font {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+.alt-font {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+a {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #fdcc52;
+}
+a:hover,
+a:focus {
+  color: #fcbd20;
+}
+hr {
+  max-width: 100px;
+  margin: 25px auto 0;
+  border-width: 1px;
+  border-color: rgba(34, 34, 34, 0.1);
+}
+hr.light {
+  border-color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.navbar-default {
+  background-color: white;
+  border-color: rgba(34, 34, 34, 0.05);
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.navbar-default .navbar-header .navbar-brand {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: #fdcc52;
+}
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+  color: #fcbd20;
+}
+.navbar-default .navbar-header .navbar-toggle {
+  font-size: 12px;
+  color: #222222;
+  padding: 8px 10px;
+}
+.navbar-default .nav > li > a {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+}
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+  color: #222222;
+}
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+  color: #fdcc52;
+}
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+  color: #fdcc52 !important;
+  background-color: transparent;
+}
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus:hover {
+  background-color: transparent;
+}
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .navbar-default .navbar-header .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar-default .navbar-header .navbar-brand:hover,
+  .navbar-default .navbar-header .navbar-brand:focus {
+    color: white;
+  }
+  .navbar-default .nav > li > a,
+  .navbar-default .nav > li > a:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar-default .nav > li > a:hover,
+  .navbar-default .nav > li > a:focus:hover {
+    color: white;
+  }
+  .navbar-default.affix {
+    background-color: white;
+    border-color: rgba(34, 34, 34, 0.1);
+  }
+  .navbar-default.affix .navbar-header .navbar-brand {
+    color: #222222;
+  }
+  .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #fdcc52;
+  }
+  .navbar-default.affix .nav > li > a,
+  .navbar-default.affix .nav > li > a:focus {
+    color: #222222;
+  }
+  .navbar-default.affix .nav > li > a:hover,
+  .navbar-default.affix .nav > li > a:focus:hover {
+    color: #fdcc52;
+  }
+}
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  overflow-y: hidden;
+  background: url("/web/bundles/landing/newAge/img/bg-pattern.png"), linear-gradient(to left, rgb(44, 62, 80), rgb(127, 140, 141));
+  /* fallback for old browsers */
+  background: url("/web/bundles/landing/newAge/img/bg-pattern.png"), linear-gradient(to left, rgb(44, 62, 80), rgb(127, 140, 141));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: url("/web/bundles/landing/newAge/img/bg-pattern.png"), linear-gradient(to left, rgb(44, 62, 80), rgb(127, 140, 141));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+header .header-content {
+  text-align: center;
+  padding: 150px 0 50px;
+  position: relative;
+}
+header .header-content .header-content-inner {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+header .header-content .header-content-inner h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+header .header-content .header-content-inner .list-badges {
+  margin-bottom: 25px;
+}
+header .header-content .header-content-inner .list-badges img {
+  height: 50px;
+  margin-bottom: 25px;
+}
+header .device-container {
+  max-width: 300px;
+  margin: 0 auto 100px;
+}
+header .device-container .screen img {
+  border-radius: 3px;
+}
+@media (min-width: 768px) {
+  header {
+    min-height: 100%;
+  }
+  header .header-content {
+    text-align: left;
+    padding: 0;
+    height: 100vh;
+  }
+  header .header-content .header-content-inner {
+    max-width: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  header .header-content .header-content-inner h1 {
+    font-size: 35px;
+  }
+  header .device-container {
+    max-width: none;
+    max-height: calc(0vh);
+    margin: 100px auto 0;
+  }
+}
+@media (min-width: 992px) {
+  header .header-content .header-content-inner h1 {
+    font-size: 50px;
+  }
+}
+section {
+  padding: 100px 0;
+}
+section h2 {
+  font-size: 50px;
+}
+section.download {
+  padding: 150px 0;
+  position: relative;
+}
+section.download h2 {
+  margin-top: 0;
+  font-size: 50px;
+}
+section.download .badges .badge-link {
+  display: block;
+  margin-bottom: 25px;
+}
+section.download .badges .badge-link:last-child {
+  margin-bottom: 0;
+}
+section.download .badges .badge-link img {
+  height: 60px;
+}
+@media (min-width: 768px) {
+  section.download .badges .badge-link {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  section.download h2 {
+    font-size: 70px;
+  }
+}
+section.features .section-heading {
+  margin-bottom: 100px;
+}
+section.features .section-heading h2 {
+  margin-top: 0;
+}
+section.features .section-heading p {
+  margin-bottom: 0;
+}
+section.features .device-container,
+section.features .feature-item {
+  max-width: 300px;
+  margin: 0 auto;
+}
+section.features .device-container {
+  margin-bottom: 100px;
+}
+@media (min-width: 992px) {
+  section.features .device-container {
+    margin-bottom: 0;
+  }
+}
+section.features .feature-item {
+  text-align: center;
+  margin-bottom: 100px;
+}
+section.features .feature-item h3 {
+  font-size: 30px;
+}
+section.features .feature-item i {
+  font-size: 80px;
+  background: -webkit-linear-gradient(to left, rgb(44, 62, 80), rgb(127, 140, 141));
+  background: linear-gradient(to left, rgb(44, 62, 80), rgb(127, 140, 141));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+  section.features .device-container,
+  section.features .feature-item {
+    max-width: none;
+  }
+}
+section.cta {
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('/web/bundles/landing/newAge/img/bg-cta.jpg');
+  padding: 250px 0;
+}
+section.cta .cta-content {
+  position: relative;
+  z-index: 1;
+}
+section.cta .cta-content h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: white;
+  max-width: 450px;
+  font-size: 50px;
+}
+@media (min-width: 768px) {
+  section.cta .cta-content h2 {
+    font-size: 80px;
+  }
+}
+section.cta .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section.contact {
+  text-align: center;
+}
+section.contact h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+section.contact h2 i {
+  color: #dd4b39;
+}
+section.contact ul.list-social {
+  margin-bottom: 0;
+}
+section.contact ul.list-social li a {
+  display: block;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  font-size: 40px;
+  border-radius: 100%;
+  color: white;
+}
+section.contact ul.list-social li.social-twitter a {
+  background-color: #1da1f2;
+}
+section.contact ul.list-social li.social-twitter a:hover {
+  background-color: #0d95e8;
+}
+section.contact ul.list-social li.social-facebook a {
+  background-color: #3b5998;
+}
+section.contact ul.list-social li.social-facebook a:hover {
+  background-color: #344e86;
+}
+section.contact ul.list-social li.social-google-plus a {
+  background-color: #dd4b39;
+}
+section.contact ul.list-social li.social-google-plus a:hover {
+  background-color: #d73925;
+}
+footer {
+  background-color: #222222;
+  padding: 25px 0;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+footer p {
+  font-size: 12px;
+  margin: 0;
+}
+footer ul {
+  margin-bottom: 0;
+}
+footer ul li a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+footer ul li a:hover,
+footer ul li a:focus,
+footer ul li a:active,
+footer ul li a.active {
+  text-decoration: none;
+}
+.bg-primary {
+  background: #fdcc52;
+  background: -webkit-linear-gradient(#fdcc52, #fdc539);
+  background: linear-gradient(#fdcc52, #fdc539);
+}
+.text-primary {
+  color: #fdcc52;
+}
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.btn-outline {
+  color: white;
+  border-color: white;
+  border: 1px solid;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: white;
+  background-color: #fdcc52;
+  border-color: #fdcc52;
+}
+.btn {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 300px;
+}
+.btn-xl {
+  padding: 15px 45px;
+  font-size: 11px;
+}
+::-moz-selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+::selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+img::selection {
+  color: white;
+  background: transparent;
+}
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #222222;
+}
+
+.panel-no-bg{
+    border: 2px solid #263f50;
+    background-color: rgba(255,255,255,1);
+}
+
+.link-no-hover:hover{
+    text-decoration: none;
+}
+
+input[type=text], input[type=email]{
+    border: 1px solid #263f50 !important;
+}
+#basebundle_contact_message{
+    border: 1px solid #263f50 !important;
+}
+
+.portfolio {
+    padding: 0px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+hr{
+    border: 1px solid #263f50;
+    width: 100%;
+}

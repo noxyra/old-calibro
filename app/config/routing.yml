@@ -1,0 +1,29 @@
+base_texte:
+    resource: "@BaseBundle/Controller/TexteController.php"
+    type:     annotation
+
+base_feature:
+    resource: "@BaseBundle/Controller/FeatureController.php"
+    type:     annotation
+
+admin:
+    resource: "@AdminBundle/Controller/"
+    type:     annotation
+    prefix:   /admin
+
+base:
+    resource: "@BaseBundle/Controller/"
+    type:     annotation
+
+#website:
+#    resource: "@WebsiteBundle/Controller/"
+#    type:     annotation
+#    prefix:   /
+
+landing:
+    resource: "@LandingBundle/Controller/"
+    type:     annotation
+
+user:
+    resource: "@UserBundle/Resources/config/routing.yml"
+    prefix:   /user

@@ -1,0 +1,54 @@
+# Connexion / Déconnexion
+
+login:
+    path: /connexion/
+    defaults: { _controller: UserBundle:Security:login }
+
+login_check:
+    path: /login_check
+
+logout:
+    path: /deconnexion
+
+# Inscription
+
+fos_user_registration_register:
+    path: /inscription/
+    defaults: { _controller: UserBundle:Registration:register }
+
+fos_user_registration_confirmed:
+    path: /confirmation_inscription/
+    defaults: { _controller: UserBundle:Registration:confirmed }
+
+# Mot de passe oublié
+
+fos_user_resetting:
+    path: /mot_de_passe_oublie
+    defaults: { _controller: UserBundle:Resetting:Request }
+
+fos_user_resetting_reset:
+    path: /reset
+    defaults: { _controller: UserBundle:Resetting:reset }
+
+fos_user_resetting_check_email:
+    path: /checkEmail
+    defaults: { _controller: UserBundle:Resetting:checkEmail }
+
+fos_user_resetting_send_email:
+    path: /sendEmail
+    defaults: { _controller: UserBundle:Resetting:sendEmail }
+
+# Gestion du profil
+
+fos_user_profile_show:
+    path: /profil
+    defaults: { _controller: UserBundle:Profile:show }
+
+fos_user_profile_edit:
+    path: /profil/modifier
+    defaults: { _controller: UserBundle:Profile:edit }
+
+
+#fos_user_change_password:
+#    resource: "@FOSUserBundle/Resources/config/routing/change_password.xml"
+#    prefix: /profile

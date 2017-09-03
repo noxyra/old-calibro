@@ -1,0 +1,43 @@
+{# src/NX/UserBundle/Resources/views/Security/login.html.twig #}
+
+{% extends "LandingBundle::layout.html.twig" %}
+
+{% block title %}
+    {{ parent() }} Connexion
+{% endblock %}
+
+{% block body %}
+
+    <div class="container-fluid" style="width: 100%; height: 100%; display: flex;background-color: #fdcb4e;">
+
+        <div class="panel" style="width: auto; height: auto; margin: auto; display: flex; flex-direction: column; border: none">
+            <div class="panel-heading">
+                <h1 style="font-size: 20px;" class="text-center">Administration</h1>
+            </div>
+            {# S'il y a une erreur, on l'affiche dans un joli cadre #}
+            {% if error %}
+            <div class="panel-body">
+                    <div class="alert alert-danger">{{ error.message }}</div>
+            </div>
+            {% endif %}
+            <div class="panel-body">
+                {# Le formulaire, avec URL de soumission vers la route « login_check » comme on l'a vu #}
+                <form action="{{ path('login_check') }}" method="post">
+                    <div class="form-group">
+                        <label for="username">Pseudo :</label>
+                        <input class="form-control" type="text" id="username" name="_username" value="{{ last_username }}" />
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Mot de passe :</label>
+                        <input type="password" id="password" name="_password" class="form-control" />
+                    </div>
+                    <input type="submit" class="btn btn-success btn-fill btn-block" value="Connexion" />
+                    {#<a class="btn btn-info btn-block btn-simple" href="{{ path("fos_user_registration_register") }}">Inscription</a>#}
+                    {#<a class="btn btn-info btn-block btn-simple" href="{{ path("fos_user_resetting") }}">Mot de passe oublié ?</a>#}
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+{% endblock %}

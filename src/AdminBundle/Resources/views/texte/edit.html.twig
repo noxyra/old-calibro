@@ -1,0 +1,30 @@
+{% extends 'AdminBundle::layout.html.twig' %}
+
+{% block body %}
+    <div class="content-wrapper">
+        <div class="content-header">
+            <h1>
+                Modifier un texte
+                <a class="btn btn-primary pull-right" href="{{ path('admin_texte_index') }}">Retourner à la liste</a>
+            </h1>
+        </div>
+
+        <div class="content">
+            <div class="box">
+                <div class="box-body">
+                    {{ form_start(edit_form) }}
+                    {{ form_widget(edit_form) }}
+                    <input type="submit" value="Edit" />
+                    {{ form_end(edit_form) }}
+                </div>
+            </div>
+            <div class="box box-danger">
+                <div class="box-body">
+                    {{ form_start(delete_form) }}
+                    <input class="btn btn-danger btn-block" type="submit" value="Supprimer">
+                    {{ form_end(delete_form) }}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

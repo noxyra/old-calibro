@@ -1,0 +1,313 @@
+# Webalizer V2.23-08 Incremental Data - 05/04/2017 19:29:14
+2017 5 4 19 29 14
+127 35 26 16 8 20 12703340 93 37 0 0 0
+11 2 30 2 4
+0 0 0 0 0 0 0 0
+24 15 950115 3 11 2 0 0
+77 18 8183174 18 59 21 0 0
+26 2 3570051 11 23 14 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0
+1 0 4743 1 0 0
+1 0 350667 1 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+26 10 1336916 16 0 0
+32 2 4207397 30 0 0
+3 0 432383 3 0 0
+0 0 0 0 0 0
+5 1 726201 4 0 0
+1 0 653 0 0 0
+0 0 0 0 0 0
+3 1 366598 2 0 0
+14 4 1596376 10 0 0
+11 1 1215710 10 0 0
+5 0 1511597 5 0 0
+0 0 0 0 0 0
+23 16 915707 9 0 0
+1 0 19198 1 0 0
+1 0 19194 1 0 0
+19
+0
+0
+35
+0
+0
+0
+0
+0
+0
+0
+23
+1
+0
+3
+0
+0
+10
+0
+0
+0
+4
+0
+0
+0
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+29
+0
+0
+0
+0
+0
+# -urls- 
+/js/48125e7_bootstrap.min_2.js
+0 2 0 20942 0 0 0 0
+/js/48125e7_jquery-easing.min_3.js
+0 2 0 4720 0 0 0 0
+/css/2e130f5_device-mockups_2.css
+0 2 0 7404 0 0 0 0
+/web/bundles/landing/newAge/lib/device-mockups/iphone_6_plus/iphone_6_plus_white_port.png
+1 2 0 287922 0 0 0 0
+/favicon.ico
+0 11 0 94008 0 0 0 0
+/web/bundles/landing/newAge/img/bg-pattern.png
+1 2 0 1326 0 0 0 0
+/js/48125e7_jquery.min_1.js
+0 2 0 68832 0 0 0 0
+/css/2e130f5_new-age_3.css
+0 2 0 5506 0 0 0 0
+/css/2e130f5_simple-line-icons_1.css
+0 2 0 6342 0 0 0 0
+/admin/projet/new
+0 1 0 5309 1 0 0 0
+/bundles/landing/newAge/img/demo-screen-1.jpg
+1 2 0 184508 0 0 0 0
+/admin/projet/8
+0 1 0 978 0 0 0 0
+/.well-known/acme-challenge/GIZ5oDHO7k6p24D81tGi5jLzaFJ3KguVezju-mwUp_U
+0 1 0 310 0 0 0 0
+/
+0 3 0 17542 29 8 0 0
+/robots.txt
+0 1 0 3984 0 0 0 0
+/js/48125e7_new-age.min_4.js
+0 2 0 2014 0 0 0 0
+# End Of Table - urls
+# -sites- (monthly)
+173.252.90.117
+0 1 0 358281 1 1493808031 0 0
+/
+83.113.171.103
+0 12 2 1460298 3 1493924295 0 0
+-
+176.133.137.73
+0 53 25 2930324 4 1493840045 0 0
+/
+193.52.241.183
+0 3 1 366598 1 1493832282 0 0
+/
+173.252.90.97
+0 1 0 358281 1 1493808034 0 0
+/
+139.162.116.133
+0 1 0 358821 1 1493926154 0 0
+/
+66.133.109.36
+0 1 1 310 0 0 0 0
+-
+83.202.130.5
+0 11 3 1229778 1 1493832958 0 0
+/
+139.59.107.106
+0 1 0 4743 1 1493775062 0 0
+/
+78.153.241.195
+0 1 0 361827 1 1493839850 0 0
+/
+173.252.90.103
+0 1 0 358281 1 1493808027 0 0
+/
+66.249.93.94
+0 5 0 252751 4 1493922264 0 0
+-
+173.252.90.119
+0 1 0 559 1 1493808027 0 0
+/
+37.163.173.180
+0 3 1 366598 1 1493818375 0 0
+/
+66.249.93.92
+0 2 0 1118 2 1493922264 0 0
+/
+66.249.93.65
+0 4 0 719182 3 1493922264 0 0
+-
+106.74.48.170
+0 1 0 358477 1 1493841003 0 0
+/
+5.8.10.202
+0 3 0 111912 2 1493925733 0 0
+/
+137.116.71.170
+0 1 1 3984 0 0 0 0
+-
+184.105.139.68
+0 1 0 73543 1 1493811790 0 0
+/
+89.163.242.118
+0 1 0 350667 1 1493865921 0 0
+/
+66.249.93.68
+0 3 0 843541 3 1493922264 0 0
+/
+89.248.167.131
+0 10 0 1107375 1 1493809055 0 0
+/
+173.252.124.10
+0 1 0 653 0 0 0 0
+-
+217.160.152.36
+0 2 0 358840 1 1493898196 0 0
+/
+92.90.16.121
+0 3 1 366598 1 1493917097 0 0
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+83.113.171.103
+0 9 1 1089626 2 1493924295 0 0
+-
+139.162.116.133
+0 1 0 358821 1 1493926154 0 0
+/
+66.249.93.94
+0 3 0 251585 2 1493922264 0 0
+-
+66.249.93.92
+0 2 0 1118 2 1493922264 0 0
+/
+66.249.93.65
+0 1 0 583 1 1493922264 0 0
+-
+5.8.10.202
+0 1 0 73520 1 1493925733 0 0
+/
+89.163.242.118
+0 1 0 350667 1 1493865921 0 0
+/
+66.249.93.68
+0 2 0 718040 2 1493922264 0 0
+/
+173.252.124.10
+0 1 0 653 0 0 0 0
+-
+217.160.152.36
+0 2 0 358840 1 1493898196 0 0
+/
+92.90.16.121
+0 3 1 366598 1 1493917097 0 0
+/
+# End Of Table - sites (daily)
+# -referrers- 
+https://calibro.fr/css/2e130f5_device-mockups_2.css
+1 2
+https://calibro.fr/css/2e130f5_new-age_3.css
+1 2
+https://calibro.fr/admin/projet/new
+1 4
+https://www.facebook.com/
+0 2
+- (Direct Request)
+0 69
+https://www.facebook.com/check_tag
+0 4
+https://l.facebook.com/
+0 2
+https://calibro.fr/
+1 42
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB7.4; InfoPath.2; SV1; .NET CLR 3.3.69573; WOW64; en-US)
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:54.0) Gecko/20100101 Firefox/54.0
+0 46
+Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)
+0 1
+Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+0 2
+CSS Certificate Spider (http://www.css-security.com/certificatespider/)
+0 1
+Mozilla/5.0 (Linux; Android 7.1.1; Nexus 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2
+0 3
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36
+0 6
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
+0 3
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
+0 4
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+0 3
+Mozilla/5.0 zgrab/0.x
+0 1
+Mozilla/5.0 (Linux; Android 6.0.1; SM-J500FN Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0
+0 3
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36
+0 3
+libwww-perl/6.08
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon
+0 14
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:53.0) Gecko/20100101 Firefox/53.0
+0 4
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.1 Safari/603.1.30
+0 3
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36
+0 11
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

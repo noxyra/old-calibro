@@ -1,0 +1,53 @@
+{% extends 'AdminBundle::layout.html.twig' %}
+
+{% block body %}
+    <div class="content-wrapper">
+        <div class="content-header">
+            <h1>
+                Features
+                <a class="btn btn-primary pull-right" href="{{ path('admin_feature_new') }}">Ajouter nouvelle Feature</a>
+            </h1>
+        </div>
+
+        <div class="content">
+
+            <div class="box">
+
+                <div class="box-body">
+
+                    <table class="table table-responsive">
+                        <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Titre</th>
+                            <th>Description</th>
+                            <th>Icon</th>
+                            <th>Actions</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for feature in features %}
+                            <tr>
+                                <td><a href="{{ path('admin_feature_show', { 'id': feature.id }) }}">{{ feature.id }}</a></td>
+                                <td>{{ feature.titre }}</td>
+                                <td>{{ feature.description }}</td>
+                                <td>{{ feature.icon }}</td>
+                                <td>
+                                    <a class="btn btn-xs btn-primary" href="{{ path('admin_feature_show', { 'id': feature.id }) }}">Voir</a>
+                                    <a class="btn btn-xs btn-warning" href="{{ path('admin_feature_edit', { 'id': feature.id }) }}">Modifier</a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+{% endblock %}

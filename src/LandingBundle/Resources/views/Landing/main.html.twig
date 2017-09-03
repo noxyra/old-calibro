@@ -1,0 +1,157 @@
+{% extends "LandingBundle::layout.html.twig" %}
+
+{% block body %}
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="header-content">
+                    <div class="header-content-inner text-center">
+                        <h1>{{ mainValue.contenu }}</h1>
+                        <a href="#features" class="page-scroll"><i class="fa fa-chevron-down fa-5x" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="device-container">
+                    <div class="device-mockup iphone6_plus portrait white">
+                        <div class="device">
+                            <div class="screen">
+                                <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                <img src="{{ asset("bundles/landing/images/demo-screen-2.jpg") }}" class="img-responsive" alt="">
+                            </div>
+                            <div class="button">
+                                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="features" class="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-heading">
+                    <h2>{{ mainFeatTitle.contenu }}</h2>
+                    {#<hr>#}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="device-container">
+                    <div class="device-mockup iphone6_plus portrait white">
+                        <div class="device">
+                            <div class="screen">
+                                <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                <img src="{{ asset("bundles/landing/images/demo-screen-1.jpg") }}" class="img-responsive" alt=""> </div>
+                            <div class="button">
+                                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="container-fluid">
+                    <div class="row">
+
+                        {% for feature in features %}
+
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="fa {{ feature.icon }} fa-5x"></i>
+                                    <h3>{{ feature.titre }}</h3>
+                                    <p class="text-muted">{{ feature.description }}</p>
+                                </div>
+                            </div>
+
+                        {% endfor %}
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <h4>Et bien plus encore…</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <hr>
+
+    {% if projets is not empty %}
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center" style="margin-bottom: 100px;">
+                        <h2>{{ mainPortfolioTitle.contenu }}</h2>
+                    </div>
+                    {% for projet in projets %}
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="portfolio-item" style="border-style: solid;border-color: #111;border-radius: 5px;">
+                                <a href="{{ projet.lien }}">
+                                    <img class="img-portfolio img-responsive" src="{{ projet.image.path }}">
+                                </a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+    {% endif %}
+
+    <hr>
+
+<section id="contact" class="contact">
+    <div class="container text-center">
+        <div class="panel">
+            <div class="panel-heading">
+                <h2 style="color: #222;">{{ mainContactTitle.contenu }}</h2>
+            </div>
+            <div class="panel-body">
+                <p style="color: #222;">
+                    {{ mainContactUndertitle.contenu }}
+                </p>
+            </div>
+            <div class="panel-body text-left" style="color: #222;">
+                <form action="{{ path("user_contact_add") }}" method="POST">
+
+                    <div class="col-xs-12 col-sm-6" style="margin-top: 20px;">
+                        {{ form_label(form.nom) }}
+                        {{ form_widget(form.nom) }}
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6" style="margin-top: 20px;">
+                        {{ form_label(form.email) }}
+                        {{ form_widget(form.email) }}
+                    </div>
+
+                    <div class="col-xs-12" style="margin-top: 20px;">
+                        {{ form_label(form.objet) }}
+                        {{ form_widget(form.objet) }}
+                    </div>
+
+                    <div class="col-xs-12" style="margin-top: 20px;">
+                        {{ form_label(form.message) }}
+                        {{ form_widget(form.message) }}
+                    </div>
+
+                    <div class="col-xs-12" style="margin-top: 20px;">
+                        <input class="btn btn-success pull-right" type="submit" value="Envoyer" />
+                    </div>
+
+                    {{ form_rest(form) }}
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

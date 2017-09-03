@@ -1,0 +1,28 @@
+{# src/AdminBundle/Resources/views/nav.html.twig #}
+
+<!-- Left side column. contains the sidebar -->
+<aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+        <!-- Sidebar user panel -->
+        <div class="user-panel">
+            <div class="pull-left image">
+                <img src="https://www.3wallpapers.fr/wp-content/uploads/2012/10/Sexy-Girl-Shoot-3Wallpapers-ipad-Retina.jpg" class="img-circle" alt="User Image">
+            </div>
+            <div class="pull-left info">
+                <p>{{ app.user.username|capitalize }}</p>
+                <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+            </div>
+        </div>
+
+        <!-- sidebar menu: : style can be found in sidebar.less -->
+        <ul class="sidebar-menu">
+            <li class="header">Navigation</li>
+            <li><a href="{{ path('admin_texte_index') }}"><i class="fa fa-edit" aria-hidden="true"></i> <span>Textes</span></a></li>
+            <li><a href="{{ path('admin_feature_index') }}"><i class="fa fa-link" aria-hidden="true"></i> <span>Features</span></a></li>
+            <li><a href="{{ path('admin_projet_index') }}"><i class="fa fa-code" aria-hidden="true"></i> <span>Projets</span></a></li>
+            <li><a href="{{ path('admin_contact_index') }}"><i class="fa fa-commenting" aria-hidden="true"></i> <span>Messages</span></a></li>
+        </ul>
+    </section>
+    <!-- /.sidebar -->
+</aside>

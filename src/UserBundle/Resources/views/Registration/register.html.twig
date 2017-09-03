@@ -1,0 +1,30 @@
+{% extends "NXBlogBundle::layout.html.twig" %}
+
+{% block title %}
+    {{ parent() }} Inscription
+{% endblock %}
+
+{% block body %}
+
+    <div class="container-fluid" style="width: 100%; height: 100%; display: flex;">
+
+        <div class="card" style="width: auto; height: auto; margin: auto; display: flex; flex-direction: column; border: none">
+            <h1 style="font-size: 20px;" class="text-center">Inscription</h1>
+
+        {# S'il y a une erreur, on l'affiche dans un joli cadre #}
+        {% if error is defined %}
+            <div class="alert alert-danger">{{ error.message }}</div>
+        {% endif %}
+
+        <div class="nox-panel-right" style="padding: 20px;">
+
+        {% block fos_user_content %}
+            {% include "NXUserBundle:Registration:register_content.html.twig" %}
+        {% endblock fos_user_content %}
+
+        </div>
+
+        </div>
+    </div>
+
+{% endblock %}

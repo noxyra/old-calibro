@@ -1,0 +1,36 @@
+.panel-no-bg{
+    border: 2px solid #263f50;
+    background-color: rgba(255,255,255,1);
+}
+
+.link-no-hover:hover{
+    text-decoration: none;
+}
+
+input[type=text], input[type=email]{
+    border: 1px solid #263f50 !important;
+}
+#basebundle_contact_message{
+    border: 1px solid #263f50 !important;
+}
+
+.portfolio {
+    padding: 0px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+hr{
+    border: 1px solid #263f50;
+    width: 100%;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Calibro - Accueil</title>
+
+    <!-- Bootstrap Core CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+
+    {% stylesheets
+        'bundles/landing/newAge/lib/simple-line-icons/css/simple-line-icons.css'
+        'bundles/landing/newAge/lib/device-mockups/device-mockups.css'
+        'bundles/landing/newAge/css/new-age.css'
+        'bundles/landing/css/surcouche.css'
+    %}
+
+        <link rel="stylesheet" href="{{ asset_url }}" type="text/css">
+
+    {% endstylesheets %}
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="//piwik.noxyra.fr/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', '1']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <!-- End Piwik Code -->
+
+</head>
+
+<body id="page-top">
+
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand page-scroll" href="{{ path("landing_default_index") }}">Calibro</a>
+        </div>
+    </div>
+</nav>
+
+{% block body %}
+
+{% endblock %}
+
+<footer>
+    <div class="container">
+        <p>&copy; 2016 Calibro. Tous droits réservés.</p>
+        {#<ul class="list-inline">#}
+            {#<li>#}
+                {#<a href="#">Mentions légales</a>#}
+            {#</li>#}
+            {#<li>#}
+                {#<a href="#">C.G.U. / C.G.V.</a>#}
+            {#</li>#}
+            {#<li>#}
+                {#<a href="#">F.A.Q.</a>#}
+            {#</li>#}
+        {#</ul>#}
+    </div>
+</footer>
+
+{% javascripts
+'bundles/landing/newAge/lib/jquery/jquery.min.js'
+'bundles/landing/newAge/lib/bootstrap/js/bootstrap.min.js'
+'bundles/landing/addons/jquery-easing.min.js'
+'bundles/landing/newAge/js/new-age.min.js'
+%}
+
+<script src="{{ asset_url }}"></script>
+
+{% endjavascripts %}
+
+</body>
+
+</html>

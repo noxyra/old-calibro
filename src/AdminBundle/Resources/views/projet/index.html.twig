@@ -1,0 +1,55 @@
+{% extends 'AdminBundle::layout.html.twig' %}
+
+{% block body %}
+
+    <div class="content-wrapper">
+        <section class="content-header">
+            <h1>
+                Liste des projets
+                <a class="btn btn-primary pull-right" href="{{ path('admin_projet_new') }}">Créer un nouveau projet</a>
+            </h1>
+        </section>
+
+        <section class="content">
+            <div class="box">
+                <div class="box-body">
+                    <table class="table table-responsive">
+                        <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Nom</th>
+                            <th>Lien</th>
+                            <th>Description</th>
+                            <th>Actions</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for projet in projets %}
+                            <tr>
+                                <td><a href="{{ path('admin_projet_show', { 'id': projet.id }) }}">{{ projet.id }}</a></td>
+                                <td>{{ projet.nom }}</td>
+                                <td>{{ projet.lien }}</td>
+                                <td>{{ projet.description }}</td>
+                                <td>
+                                    <a class="btn btn-primary btn-xs" href="{{ path('admin_projet_show', { 'id': projet.id }) }}">Voir</a>
+                                    <a class="btn btn-warning btn-xs" href="{{ path('admin_projet_edit', { 'id': projet.id }) }}">Editer</a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+    <ul>
+        <li>
+
+        </li>
+    </ul>
+{% endblock %}
